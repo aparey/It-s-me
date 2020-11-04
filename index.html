@@ -3,129 +3,66 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Aditya's Personal Website</title>
+  <title>Aditya Parey</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img
-          src="data:image/jpeg;base64,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"
-          alt="Aditya's Profile Picture"></td>
-      <td>
-        <h1> Aditya Parey </h1>
-        <p><em>Student, ethical hacker and a novice <strong> web stack developer</strong></em> </p>
-        <p><em>I am a tech enthusiast and I love sports !!!</em> </p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3> Education and Achievements </h3>
-  <ul>
-    <li>Completed my High School from Delhi Public School, Bhopal.</li>
-    <li>I was a part of Student Council for two consecutive terms.</li>
-    <li>I am an avid quizzer and have won almost 20 quizzes in the last 2 years of my schooling.</li>
-    <li>I have a 106/120 as my TOEFL score.</li>
-    <li>Started my Undergrauate at The State Univerity of New York in the year 2019.</li>
-    <li>Droppped out of State Univerity of New York due to COVID-19.</li>
-    <li>Currently pursuing a double Undergrauate from IIT-M and LNCT and getting my BSc in Data Science and BTech in Computer Science degrees respectively. </li>
-  </ul>
-  <h3>My Hobbies</h3>
-  <ol>
-    <li>Playing Football.</li>
-    <li>Photography.</li>
-    <li><a href="http://libgen.rs/">Reading novels, fiction mostly.</a></li>
-    <li>Gaming, kinda.</li>
-  </ol>
-  <hr>
-  <h3>Work Experience</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-
-    </thead>
-    <tbody>
-      <tr>
-        <td>July - Sept 2020</td>
-        <td>Marketing internship at Shine Projects.</td>
-      </tr>
-      <tr>
-        <td>2019-2020</td>
-        <td>Cashier at SUNY Oswego dining hall.</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <td>
-      <table>
-        <tbody>
-          <tr>
-            <td>JAVA</td>
-            <td>
-              <p style="font-size:18px">&#9733;&#9733;&#9733;&#9733;</p>
-            </td>
-          </tr>
-          <tr>
-            <td>MySQL</td>
-            <td>
-              <p style="font-size:18px">&#9733;&#9733;&#9733;&#9733;</p>
-            </td>
-          </tr>
-          <tr>
-            <td>Linux Skills </td>
-            <td>
-              <p style="font-size:18px">&#9733;&#9733;&#9733;&#9733;</p>
-            </td>
-          </tr>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Parey.</h1>
+    <h2><span class="pro"> two words - programmer and developer</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+    <div class="middle-container">
+      <div class="profile">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fpareyaditya&psig=AOvVaw3OfMyibRyLh8f_CHXIu2aJ&ust=1604130811000000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjVoozr2-wCFQAAAAAdAAAAABAD" alt="">
+        <h2>Hello.</h2>
+        <p class="intro">Just another student web developer striving to make it big out there.</p>
+        <p class="intro">#Web Developer# #Photograpy# #Filmmaking and editing# #Ethical Hacking# #Football# #meeemer# #Potterhead# </p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="code-img" src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" alt="code-img">
+          <h3>Design and Development</h3>
+          <p>Budding web stack developer & effecient in Adobe Photoshop, Illustartor and InDesign </p>
+        </div>
+        <div class="skill-row">
+          <img class="prog-img" src="https://media.giphy.com/media/IeRdg7gLkfK1ly2mFU/giphy.gif" alt="">
+          <h3>Programming</h3>
+          <p>Couldn't beacome multilingual so learned multiple Programming languages. </p>
+          <p>Coherent in JAVA, C, MySQL, JavaScript, Python.</p>
+        </div>
+        <div class="skill-row">
+          <img class="pizza-img" src="https://media.giphy.com/media/JRmQ7xPjwKfqXV9JYd/giphy.gif" alt="cycling">
+          <h3>5 Boro Pizza Challenge</h3>
+          <p>But my best skill is eating pizza. You're loking at the proud participant of pizza challenge. Veggie pizzas and cheese burst for life :* </p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you love pizza as much as I do.</h3>
+        <p class="contact-msg">Love pizza as much as I do? Let's get together, eat and while we are at it, brainstorm the CODE and IDEAS.</p>
+        <a class="footer-link" href="mailto:adityaparey21@gmail.com">CONTACT ME</a>
+      </div>
 
 
 
-          <tr>
 
+      <div class="bottom-container">
+        <a class="" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="" href="https://twitter.com/PareyAditya">Twitter</a>
+        <a class="" href="https://www.facebook.com/aditya.parey">Facebook</a>
+        <p class="copyright">© 2020 Aditya Parey.</p>
+      </div>
 
-          </tr>
-        </tbody>
-      </table>
-
-
-    </td>
-    <td>
-      <table cellspacing="10">
-        <tr>
-          <td>Photography</td>
-          <td>
-            <p style="font-size:18px">&#9733;&#9733;&#9733;&#9733;</p>
-          </td>
-        </tr>
-        <tr>
-          <td>Adobe Photoshop and Illustrator </td>
-          <td>
-            <p style="font-size:18px">&#9733;&#9733;&#9733;</p>
-          </td>
-        </tr>
-
-        <tr>
-          <td>MS Excel</td>
-          <td>
-            <p style="font-size:18px">&#9733;&#9733;&#9733;</p>
-          </td>
-        </tr>
-
-    </td>
-  </table>
-
-  </table>
-
-
-
-  <hr>
-  <h3><a href="contact me.html"> Contact Me </a> </h3>
 
 
 </body>
